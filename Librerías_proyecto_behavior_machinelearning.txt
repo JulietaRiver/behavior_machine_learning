@@ -1,0 +1,11 @@
+Librerías proyecto:
+
+#abrir los archivos del data frame
+import pandas as pd
+
+from sklearn.model_selection import train_test_split
+# importar librerías para machinelearning
+import pandas as pd
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.metrics import accuracy_score, classification_report
+from sklearn.model_selection import train_test_split, GridSearchCV
